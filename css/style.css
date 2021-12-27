@@ -7,19 +7,35 @@ a{
 
 header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     gap: 700px;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.527) ;
     background-color: #be3144;
-    height: 80px;   
+    height: 11vh;   
 }
 
 .navbar-list{
     display: flex;
     gap: 33px;
+}
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+}
+
+.nav-header{
+    display: flex;
 }
 
 .nav-header a{
@@ -179,6 +195,7 @@ button:hover::after{
     font-size: 60px;
     margin: 0 auto;
     font-weight: 700;
+    text-shadow: 1px 1px 2px black;
 }
 
 .titulo-contato p{
@@ -213,6 +230,9 @@ button:hover::after{
     color: rgb(145, 145, 145);
 }
 
+/* FOOTER  */
+
+
 footer{
     background-color: #303841;
     width: 100%;
@@ -228,8 +248,3 @@ footer p{
     text-shadow: 1px 1px 2px black;
     font-weight: 700;
 }
-
-
-
-
-
